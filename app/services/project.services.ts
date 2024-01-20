@@ -97,6 +97,9 @@ export const executeCode = async (
     );
     return data;
   } catch (err) {
+    console.log("hello");
+    console.error('Axios Error:', err);
+  console.log('Axios Response:', err);
     throw err;
   }
 };
@@ -110,9 +113,14 @@ export const getBrowserIFrameCode = async (projectSlug: string) => {
           Authorization: `FingerPrint ${fingerPrint}`,
         },
       }
+      
     );
+    console.log("hello");
     return data;
   } catch (err) {
+    console.log("hello");
+    console.error('Axios Error:', err);
+  console.log('Axios Response:', err);
     throw err;
   }
 };

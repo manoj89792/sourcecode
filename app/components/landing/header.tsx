@@ -26,7 +26,7 @@ const navigation = [
   },
   {
     name: "Source Code",
-    href: "https://github.com/dakshesh14/code-editor",
+    href: "https://github.com/manoj89792/sourcecode",
     target: "_blank",
   },
 ];

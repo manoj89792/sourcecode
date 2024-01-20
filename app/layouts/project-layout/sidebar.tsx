@@ -23,7 +23,7 @@ const navigation = [
   { name: "Projects", href: "/projects", icon: FolderIcon },
   {
     name: "Source Code",
-    href: "https://github.com/dakshesh14/code-editor",
+    href: "https://github.com/manoj89792/sourcecode",
     icon: DocumentDuplicateIcon,
     target: "_blank",
   },
